@@ -1,0 +1,299 @@
+you are designing a web page that contains a list of animals.the web page includes  script that o/p animals from a list.You create the following HTML to test the script.
+<p>animals</p>
+<ul>
+	<li>dog</li>
+	<li><b>cat</b></li>
+	<li>lion</li>
+</ul>
+<p>click the button to display the animals.</p>
+<button onclick="showList()">Show list</button>
+<div id="list"></div>
+you need to create a list that will display the list of animals including any formatting in the div element.how should u complete the code.
+function showList(){
+	var list =document.[[1]]
+	for(var i=0;i<list.length;i++){
+		document.[[2]]("list")[[3]]+=list[i].[[4]]+"<br/";
+	}
+}
+
+getElementsByTagName("li")
+getElementsByTagName("ul")
+getElementsByClassName("li")
+getElementsByTClassName("ul")
+
+
+getElementsByTagName
+getElementsById
+getElementsByClassName
+getElementsByName
+
+innerHTML
+innerText
+textContent
+
+innerHTML
+innerText
+textContent
+
+
+
+
+
+
+Program with JavaScript Operators, Methods, and Keywords
+
+You are evaluating a collegues code to ensure it meets best practices.
+for each of the following statements.select yes  if the statement is true.else select the false.
+
+the characters // are used to mark a single line as a comment.
+totalscore is in the correct format according to standard naming conventions for js
+~score can be used as a variable name.
+switch can be used as a variable name.
+
+
+
+
+
+
+Program with JavaScript Operators, Methods, and Keywords
+
+You are writing a code in that the popups display a dialogue boxes wth its
+appropriate scenario
+[[1]] display a dialog box that allows the user to enter a street address.
+[[2]] display a error msg using a function that does not return a value.
+[[3]] display a dialog box and return a value indicating which button the user clicked
+
+prompt alert confirm
+
+
+
+
+
+
+Implement and Analyze Decisions and Loops
+
+you run the following code
+var chain="";
+var j;
+for(j=0;j<8;j++){
+	if(j==2{continue;})
+	chain+=j+" ";
+}
+which value is stored in the variable chain after the code runs?
+0 1
+		0 1 3 4 5 6 7 
+1 3 4 5 6 7 8
+3 4 5 6 7
+0 1 3 4 5 6 7 8
+
+
+
+
+
+Implement and Analyze Decisions and Loops
+
+you are creating a js to write a safe root math utility that has the following requirements:
+given the function safeRoot(a,b):
+	if the radical (a) is non-negative, return Math.pow(a,1/b);
+	otherwise,
+		if the index(b) is divisible by 2,. then return text indicating the result is imaginary.
+		otherwise return -Math.pow(-a,1/b)
+
+function safeRoot(a,b)
+	[[1]]if(a>=0){
+		return Math.pow(a,1/b);
+	[[2]]else{
+		[[3]]}if(b%2==0){
+			 return "result is an imaginary number";
+		[[4]]else{
+			return -Math.pow(-a,1/b);
+
+
+if(a>=0){
+if(b%2==0){
+
+}else if(b%2==0){
+}else if(a>=0){
+}else{
+if(b%2==0){
+
+}else if(b%2==0){
+}else if(a>=0){
+}else{
+}if(a>=0){
+}if(b%2==0){
+
+
+
+
+
+
+Program with Variables, Data Types, and Functions 
+
+You are writimg a web application for adventureWorks:
+the web application stores customer information in an array of objects.each customer object has the following properties:
+	customerName
+	lastOrderDate
+	orderAmount
+you need to create and populate a list of customers and check which of these customers placed an order in last 3 years
+
+for(var i=0;i<customers.length;i++){
+	var customers= customers[i];
+	var currentDate=new Date();
+	var orderDate= new Date(customer.lastOrderDate);
+	if([[1]])-[[2]]<3){
+		console.log("customer"+customers[i].customerName+"placed order"+dateDiff(currentDate,orderDate))
+	}
+}
+
+Date(orderDate).getYear()
+Date(currentDate).getYear()
+
+
+
+
+
+
+
+Program with Variables, Data Types, and Functions 
+
+you are developing a tic-tac program you create the following code
+
+var grid=new Array();
+grid[0]=['-','-','X'];
+grid[1]=['-','-','-'];
+grid[2]=['-','O','-'];
+
+select the appropriate answer from the choice.
+which array element contains the "X"?  grid[0][2]
+which array element contains the "O"?  grid[2][1]
+
+grid[0][2]
+grid[1][3]
+grid[2][0]
+grid[3][1]
+
+grid[1][2]
+grid[2][3]
+grid[2][1]
+grid[3][2]
+
+
+
+
+
+
+
+
+
+
+Program with Variables, Data Types, and Functions 
+
+you are creating a function to determine whether or not a year is a leap year.
+A year is a leap year if is is divisible by 4 but not by 100.if the year is divisible by 4 and by 100,it is not a leap year unless it is also divisible by 400.
+
+function isLeapYear(year){
+	var bIsLeapyear=[[1]]
+	bIsLeapyear=bIsLeapyear&&(year%100!=0);
+	bIsLeapyear=[[2]]
+}
+
+(year%4!=0);
+bIsLeapyear&&(year%400==0);
+(year%4>0);
+(year%4==0);
+bIsLeapyear||(year%400!=0);
+bIsLeapyear||(year%400==0);
+
+
+
+
+Interact with the Document Object Model
+
+Select yes if the statement is true.otherwise select no
+
+the alert() method displays a popup box with yes and no buttons
+the getElementById(elementName) method returns the element that has the name attribute with the value specified in the elementName parameter
+the window.prompt() method can be written without referencing the window object.
+setting a cookies expiration to a date and time prior to now causes the cookie to be deleted
+
+
+
+
+
+
+Program with JavaScript Operators, Methods, and Keywords 
+
+You are writting a JS that accepts a varible named x and evaluates an arithmetic formula.
+the formula is described as follows:
+x raised to the second power,and then multiplied by -1,where x is the value passed into the function and y is the result returned by the function.
+function square(x){
+	y=[[1]]([[2]][[3]][[4]]);
+	return y;
+}
+Each code segment may be used more than once,or not,may be used.
+-- -1 2 x -x = *
+
+
+
+
+
+
+
+Interact with HTML Forms
+
+<!DOCTYPE html>
+<html>
+<body>
+	<p id="para">Enter your name</p>
+	<input type="text" id="box" onchange="update()" value=""/>
+	<script type="text/javascript">
+		var output =document.getElementById("para");
+		var input = document.getElementById("box");
+		function update(){
+			[[1]]
+			[[2]]
+		}
+	</script>
+</body>
+</html>
+output.value=input.innerHTML;
+output.hidden=true;
+
+output.innerHTML=input.innerHTML;
+input.style.visibility=false;
+
+	output=input;
+	input.hidden=true;
+
+output.innerHTML=input.value;
+input.hidden=true;
+
+
+
+
+
+
+
+Interact with HTML Forms
+
+you are creating a web page that requests a username.
+you create the following HTML form:
+<form id="credentials" action="#" method="get">
+	<p>Username:<input type="text" id="username"/></p>
+	<input type="button" onclick="getUsername()" value="Submit">
+</form>
+you need to write a function that retrives the username from the form.
+
+function getUsername(){
+	var username=[[1]].[[2]].credentials.username.[[3]];
+	alert("Welcome"+username);
+}
+
+document firstchild forms HTMLDocument innerHTML value window
+
+
+
+
+
+
